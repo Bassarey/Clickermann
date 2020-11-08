@@ -1,0 +1,12 @@
+﻿// RECORDED SCRIPT 30.10.2020
+// waitms correction
+GETSCREEN
+
+//IF_PICTURE_IN (3266,288, 3289,342, "i.bmp", -1, 100)
+//ELSE 
+//END_IF
+
+IF_PICTURE_IN (2960,445, 3000,485, "is.bmp", -1, 100)
+   WAITMS(600)
+	 LCLICK(3020,470)
+END_IF  

@@ -1,0 +1,36 @@
+﻿// RECORDED SCRIPT 07.11.2020
+
+$S_CORR = 0
+GETSCREEN
+
+IF_PIXEL_IN (2660,430, 2670,440, 5956095) 
+
+lDown(2636,461)
+waitms(73 + $S_CORR)
+  lUp(2636,461)
+waitms(1127 + $S_CORR)
+  keyDown(40)
+waitms(1710 + $S_CORR)
+  keyUp(40)
+waitms(431 + $S_CORR)
+  keyDown(40)
+waitms(798 + $S_CORR)
+  keyUp(40)  
+END_IF
+
+
+
+IF_PIXEL_IN (2550,450, 2570,470, 2698256,3222544,1722183,2707778) 
+
+lDown(2636,461)
+waitms(73 + $S_CORR)
+  lUp(2636,461)
+waitms(1127 + $S_CORR)
+  keyDown(40)
+waitms(1710 + $S_CORR)
+  keyUp(40)
+waitms(431 + $S_CORR)
+  keyDown(40)
+waitms(798 + $S_CORR)
+  keyUp(40)  
+END_IF

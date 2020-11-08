@@ -1,0 +1,33 @@
+﻿// Происходит поиск картинки der в определенной зоне
+
+GETSCREEN
+IF_PICTURE_IN (890,500, 945,550, "der.bmp", -1, 100)
+//            (890,500) верхний левый угол зоны поиска
+//                      945,550 нижний правый угол зоны поиска картинки
+
+
+$S_CORR = 0
+  lDown(940,535)  // ldown последующие действия описываю сразу.
+	//нажатие клавиши вниз для отдаления на большую карту. 
+waitms(80 + $S_CORR)
+  lUp(940,535)
+waitms(405 + $S_CORR)
+  keyDown(40)
+waitms(1662 + $S_CORR)
+  keyUp(40)
+waitms(158 + $S_CORR)
+  keyDown(40)
+waitms(1365 + $S_CORR)
+  keyUp(40)
+waitms(1384 + $S_CORR)
+// deleted
+waitms(0 + $S_CORR)
+// deleted
+waitms(383 + $S_CORR)
+// deleted
+waitms(11 + $S_CORR)
+  keyUp(18)
+waitms(1 + $S_CORR)
+  keyUp(83)
+END_IF
+	// все что вам остается, это найти и нажать на следующую деревню на большой карте
