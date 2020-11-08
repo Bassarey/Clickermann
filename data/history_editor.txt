@@ -1,0 +1,5 @@
+﻿D:\Program Files\Clickermann v4.13 x64\cms\derkod.cms
+D:\Program Files\Clickermann v4.13 x64\cms\der.cms
+D:\Program Files\Clickermann v4.13 x64\cms\der1.cms
+D:\Program Files\Clickermann v4.13 x64\cms\2.cms
+D:\Program Files\Clickermann v4.13 x64\cms\1v2.cms
