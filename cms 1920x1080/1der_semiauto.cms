@@ -1,0 +1,39 @@
+﻿// RECORDED SCRIPT 07.11.2020
+//Все что нужно делать - это выбирать деревни на отдаленной карте. А дальше скрипт все сделает сам. Нажмет на деревню и отдалит карту.
+
+
+//Видео пример
+//https://drive.google.com/file/d/1ULddj3KKzBm1_xkYtW2ca7pM2p3uiqDQ/view?usp=sharing
+$S_CORR = 0
+GETSCREEN
+
+IF_PIXEL_IN (970,480, 1010,515, 5956095) 
+                             
+lDown(960,530) // ldown последующие действия описываю сразу.
+	//нажатие клавиши вниз для отдаления на большую карту. 
+waitms(73 + $S_CORR)
+  lUp(960,530)
+waitms(1127 + $S_CORR)
+  keyDown(40)
+waitms(1710 + $S_CORR)
+  keyUp(40)
+waitms(431 + $S_CORR)
+  keyDown(40)
+waitms(798 + $S_CORR)
+  keyUp(40)  
+END_IF   
+IF_PIXEL_IN (845,515, 900,560, 2698256,3222544,1722183,2707778) 
+
+lDown(960,530)
+waitms(73 + $S_CORR)
+  lUp(960,530)
+waitms(1127 + $S_CORR)
+  keyDown(40)
+waitms(1710 + $S_CORR)
+  keyUp(40)
+waitms(431 + $S_CORR)
+  keyDown(40)
+waitms(798 + $S_CORR)
+  keyUp(40)  
+END_IF
+// все что вам остается, это найти и нажать на следующую деревню на большой карте
